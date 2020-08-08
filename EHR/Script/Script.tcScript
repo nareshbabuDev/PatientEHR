@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Pages">
+			<child name="ChooseDatabaseForm" key="{3A5CA55B-D9C8-4B4F-B5E0-406A6E2DDEF4}" path="ChooseDatabaseForm.js" />
+			<child name="DatabaseListView" key="{311D73C5-EE9A-4E49-BC68-CB0AEEC5729E}" path="DatabaseListView.js" />
+			<child name="UserCreateForm" key="{B58B0EEC-84B1-4F8A-B8D7-4B4647045759}" path="UserCreateForm.js" />
+			<child name="WindowsExplorer" key="{C8CF2958-4F92-49AE-9420-F7D1EBA85A5A}" path="WindowsExplorer.js" />
+		</folder>
+		<folder name="CommonMethods">
+			<child name="FileSelect" key="{9AD29A41-2B22-4183-9897-5438B479EC2A}" path="FileSelect.js" />
+			<child name="App_Initializer" key="{95F3C0E5-6984-4572-BD7A-C02C441C10E5}" path="App_Initializer.js" />
+		</folder>
+		<child name="SelectUser" key="{46AD4EB7-5C15-49C6-B1E2-218C1D0DC81A}" path="SelectUser.js" />
+		<child name="AddUser" key="{B04EE02F-043F-40A5-AD9D-8AD688C846BA}" path="AddUser.js" />
+		<child name="UserCreation" key="{64227122-983E-4B29-A925-8515CC507D69}" path="UserCreation.js" />
+	</children>
+</Root>

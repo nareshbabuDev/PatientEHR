@@ -1,0 +1,8 @@
+﻿function init(){
+  
+  TestedApps.Patient_Files.Run(1, true);
+  let patient_Files = Sys.Process("Patient Files");
+  
+  return patient_Files;
+}
+

@@ -1,0 +1,7 @@
+﻿//USEUNIT ChooseDatabaseForm
+function selectUser(){
+  
+  ChooseDatabaseForm.select_User(UserList);
+  ChooseDatabaseForm.select_Database(DBList);
+  
+}

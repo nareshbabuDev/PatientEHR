@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{C0CE6F41-9B5F-4338-A2A8-BF98FDF61B7F}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{9C650A5B-36F0-4820-A542-FDED616A8C57}">
+			<config nodeName="Patient_Files" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="C:\Program Files (x86)\Easy Clinic Software\Patient Files" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="C:\Program Files (x86)\Easy Clinic Software\Patient Files" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="C:\Program Files (x86)\Easy Clinic Software\Patient Files" />
+					<param name="Simple" fileName="Patient Files.exe" filePath="C:\Program Files (x86)\Easy Clinic Software\Patient Files\" parameters="" workFolder="C:\Program Files (x86)\Easy Clinic Software\Patient Files" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

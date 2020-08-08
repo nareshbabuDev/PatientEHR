@@ -1,0 +1,21 @@
+﻿//USEUNIT ChooseDatabaseForm
+
+  var manageCustomUsers_Window = patient_Files.VCLObject("ManageCustomUsers");
+  var manageCustomUsers_Panel = manageCustomUsersWindow.VCLObject("Panel1");
+  var createNewUser_Button = manageCustomUsers_Panel.VCLObject("NewUser");
+  var manageCustomUsers_GroupBox = manageCustomUsers_Panel.VCLObject("GroupBox1");
+  var userName_TextField = manageCustomUsers_GroupBox.VCLObject("UserName");
+  var pathToPDBFile_Browse_Button = manageCustomUsers_GroupBox.VCLObject("Browse");
+  var windowsExplorer_Panel = patient_Files.Window("#32770", "Browse for Folder", 1);
+  var windowsExplorer_TreeView = windowsExplorer_Panel.Window("SysTreeView32", "", 1);
+  var windowsExplorerOK_Button = windowsExplorer_Panel.Window("Button", "OK", 1);
+  var userType_DropDown = manageCustomUsers_GroupBox.VCLObject("UserTypeList");
+  
+  function createUser(){
+    userName_TextField.setText("Naresh");
+    pathToPDBFile_Browse_Button.click();
+    windowsExplorer_TreeView.clickItem("|Desktop|This PC|Documents|Easy Clinic|MyPatients6");
+    windowsExplorerOK_Button.click();
+    userType_DropDown.clickItem("Desktop Only");
+  
+  }

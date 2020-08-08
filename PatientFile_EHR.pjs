@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{DF518FBF-4998-4206-B5A0-B6156DEDE0CB}">
+	<children>
+		<child name="EHR" key="{0BAABCDD-CA95-4AF7-9391-844DDD24A034}" path="EHR\EHR.mds" />
+		<child name="Patient_EHR" key="{94BAE224-870D-417B-85F1-C4C2EC23E468}" path="Patient_EHR\Patient_EHR.mds" />
+	</children>
+	<testItems key="{D75C732A-DD68-4451-AFBF-742FFF1FD021}">
+		<children>
+			<testItem key="{0BAABCDD-CA95-4AF7-9391-844DDD24A034}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{94BAE224-870D-417B-85F1-C4C2EC23E468}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{7A58C304-52A3-4F2A-B15E-863BC298043B}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{C8C0618D-8B79-4354-A7C9-D22DD8FFA82E}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="False" />
+	</extender>
+</Root>

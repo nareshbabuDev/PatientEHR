@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="547"/>
+					<Prp name="object right" type="I" value="657"/>
+					<Prp name="object name" type="S" value="Aliases.Patient_Files.DatabaseListView.MDIClient.DBListView.Panel1.QuickSearch"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="451"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44050.6055787037"/>
+					<Prp name="object bottom" type="I" value="462"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="image file name" type="S" value="tcvi716951484115680.png"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="441"/>
+					<Prp name="object left" type="I" value="474"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="547"/>
+					<Prp name="object right" type="I" value="657"/>
+					<Prp name="object name" type="S" value="Aliases.Patient_Files.DatabaseListView.MDIClient.DBListView.Panel1.QuickSearch"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="451"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44050.6199981481"/>
+					<Prp name="object bottom" type="I" value="462"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="441"/>
+					<Prp name="object left" type="I" value="474"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (73, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Patient_Files.DatabaseListView.MDIClient.DBListView.Panel1.QuickSearch&#xA;(Sys.Process(&quot;Patient Files&quot;).VCLObject(&quot;DatabaseListView&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;DBListView&quot;).VCLObject(&quot;Panel1&quot;).VCLObject(&quot;QuickSearch&quot;))"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="date" type="D" value="44050.849166088"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="item 0">
+			<Prp name="stacktext" type="S" value="Test1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="remarks" type="S" value="Usually, the error occurs when the test attempts to click the desktop and the desktop cannot be activated before the click (for instance, it is overlapped by the maximized TestComplete window).&#xA;To simulate such actions, you need to enable the &quot;Minimize TestComplete&quot; project property.&#xA;&#xA;Note: in many cases, such actions are the result of inaccurate test recording and need to be removed from the test.&#xA;&#xA;Tested object:&#xA;Aliases.Patient_Files.DatabaseListView.MDIClient.DBListView_1.Label1&#xA;(Sys.Process(&quot;Patient Files&quot;).VCLObject(&quot;DatabaseListView&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;DBListView_1&quot;).VCLObject(&quot;Label1&quot;))"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="date" type="D" value="44050.8494813773"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="There was an attempt to perform an action at point (481, 450), which is overlapped by TestComplete's window."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="stacktext" type="S" value="Test1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="208"/>
+					<Prp name="object right" type="I" value="250"/>
+					<Prp name="object name" type="S" value="Aliases.Patient_Files.DatabaseListView.MDIClient.DBListView_1.Panel1.NewButton"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="534"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44050.605775463"/>
+					<Prp name="object bottom" type="I" value="571"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="image file name" type="S" value="tcvi716968390115684.png"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="513"/>
+					<Prp name="object left" type="I" value="192"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="143"/>
+					<Prp name="object right" type="I" value="172"/>
+					<Prp name="object name" type="S" value="Aliases.Patient_Files.DatabaseListView.MDIClient.DBListView_1.Panel1.NewButton"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="464"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44050.6200779051"/>
+					<Prp name="object bottom" type="I" value="493"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="435"/>
+					<Prp name="object left" type="I" value="114"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Patient_Files.DatabaseListView.MDIClient.DBListView_1.Panel1.NewButton&#xA;(Sys.Process(&quot;Patient Files&quot;).VCLObject(&quot;DatabaseListView&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;DBListView_1&quot;).VCLObject(&quot;Panel1&quot;).VCLObject(&quot;NewButton&quot;))"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="date" type="D" value="44050.84924625"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{00277CD1-7F76-40EB-A54F-8014CBB9BEE4}"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="657"/>
+					<Prp name="object name" type="S" value="Aliases.Patient_Files.DatabaseListView.MDIClient.DBListView.Panel1.QuickSearch"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44050.6055902778"/>
+					<Prp name="object bottom" type="I" value="462"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="image file name" type="S" value="tcvi716952234115681.png"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="441"/>
+					<Prp name="object left" type="I" value="474"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="657"/>
+					<Prp name="object name" type="S" value="Aliases.Patient_Files.DatabaseListView.MDIClient.DBListView.Panel1.QuickSearch"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44050.6200002199"/>
+					<Prp name="object bottom" type="I" value="462"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="441"/>
+					<Prp name="object left" type="I" value="474"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Patient_Files.DatabaseListView.MDIClient.DBListView.Panel1.QuickSearch&#xA;(Sys.Process(&quot;Patient Files&quot;).VCLObject(&quot;DatabaseListView&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;DBListView&quot;).VCLObject(&quot;Panel1&quot;).VCLObject(&quot;QuickSearch&quot;))"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="date" type="D" value="44050.8491678472"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The text 'john' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="468"/>
+					<Prp name="object right" type="I" value="495"/>
+					<Prp name="object name" type="S" value="Aliases.Patient_Files.DatabaseListView.MDIClient.EditRecord.ScrollBox1.TButton"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="352"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44050.6057291667"/>
+					<Prp name="object bottom" type="I" value="357"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="image file name" type="S" value="tcvi716964687115683.png"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="340"/>
+					<Prp name="object left" type="I" value="395"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="445"/>
+					<Prp name="object right" type="I" value="495"/>
+					<Prp name="object name" type="S" value="Aliases.Patient_Files.DatabaseListView.MDIClient.EditRecord.ScrollBox1.TButton"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="348"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44050.6200659259"/>
+					<Prp name="object bottom" type="I" value="357"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="340"/>
+					<Prp name="object left" type="I" value="395"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Patient_Files.DatabaseListView.MDIClient.EditRecord.ScrollBox1.TButton&#xA;(Sys.Process(&quot;Patient Files&quot;).VCLObject(&quot;DatabaseListView&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;EditRecord&quot;).VCLObject(&quot;ScrollBox1&quot;).Window(&quot;TButton&quot;, &quot;VISITS&quot;, 16))"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="date" type="D" value="44050.8492340046"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="date" type="D" value="44050.8494823843"/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="stack beginning" type="I" value="2"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 5">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="remarks" type="S" value="Sys.Process(&quot;TestComplete&quot;).Window(&quot;TfrmTCMainForm&quot;, &quot;TestComplete - C:\\Users\\Acer\\Desktop\\PatientFile_EHR\\PatientFile_EHR.pjs&quot;, 1).Window(&quot;TPanel&quot;, &quot;&quot;, 1).Window(&quot;TaqDockingSite&quot;, &quot;&quot;, 1).Window(&quot;TaqWindowSite&quot;, &quot;Workspace&quot;, 5).Window(&quot;TWorkspaceForm&quot;, &quot;Workspace&quot;, 1).Window(&quot;TaqDockingSite&quot;, &quot;&quot;, 1).Window(&quot;TaqDockingPanel&quot;, &quot;Unit1&quot;, 10).Window(&quot;TaqComplexEditorFormX64&quot;, &quot;Unit1&quot;, 1).Window(&quot;TaqDockingSite&quot;, &quot;&quot;, 1).Window(&quot;TaqDockingPanel&quot;, &quot;Code Editor&quot;, 2).Window(&quot;TForm&quot;, &quot;Unit1&quot;, 1).Window(&quot;TcxFramedEditor&quot;, &quot;&quot;, 1).Window(&quot;TcxScrollBar&quot;, &quot;&quot;, 2)"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="date" type="D" value="44050.8494785301"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window is overlapped by the 'TestComplete - C:\Users\Acer\Desktop\PatientFile_EHR\PatientFile_EHR.pjs' window."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="657"/>
+					<Prp name="object name" type="S" value="Aliases.Patient_Files.DatabaseListView.MDIClient.DBListView.Panel1.QuickSearch"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44050.6056365741"/>
+					<Prp name="object bottom" type="I" value="462"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="image file name" type="S" value="tcvi7169522341156811.png"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="441"/>
+					<Prp name="object left" type="I" value="474"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="657"/>
+					<Prp name="object name" type="S" value="Aliases.Patient_Files.DatabaseListView.MDIClient.DBListView.Panel1.QuickSearch"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44050.6200017824"/>
+					<Prp name="object bottom" type="I" value="462"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="441"/>
+					<Prp name="object left" type="I" value="474"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Patient_Files.DatabaseListView.MDIClient.DBListView.Panel1.QuickSearch&#xA;(Sys.Process(&quot;Patient Files&quot;).VCLObject(&quot;DatabaseListView&quot;).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).VCLObject(&quot;DBListView&quot;).VCLObject(&quot;Panel1&quot;).VCLObject(&quot;QuickSearch&quot;))"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="date" type="D" value="44050.8491809028"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

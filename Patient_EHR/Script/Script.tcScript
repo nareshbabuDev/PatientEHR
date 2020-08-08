@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Methods">
+			<child name="AddPatient" key="{3BDEB564-4BE4-4FB0-B80F-DD70853E3CBF}" path="AddPatient.js" />
+			<child name="App_Initializer" key="{F9FE8984-BD86-4395-A3ED-60680036B1C4}" path="App_Initializer.js" />
+			<child name="CreateVisit" key="{8BC08E27-8AE7-4DB9-B558-D4FF8226E7CB}" path="CreateVisit.js" />
+			<child name="Select_Record" key="{9189A32E-FDB6-4DB4-90AC-82D29F198B87}" path="Select_Record.js" />
+		</folder>
+		<child name="Driver" key="{30259EA6-B4D3-4F08-865F-FC86CE3685F8}" path="Driver.js" />
+	</children>
+</Root>

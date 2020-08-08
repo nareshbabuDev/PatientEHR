@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{020b518c-cbbd-4461-9f2e-67d06b391871}">
+				<Prp name="relpath" type="S" value="EHR_Python\EHR_Python.mds.tcLS"/>
+			</Node>
+			<Node name="{0baabcdd-ca95-4af7-9391-844ddd24a034}">
+				<Prp name="relpath" type="S" value="EHR\EHR.mds.tcLS"/>
+			</Node>
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{0BAABCDD-CA95-4AF7-9391-844DDD24A034}"/>
+			</Node>
+			<Node name="{94bae224-870d-417b-85f1-c4c2ec23e468}">
+				<Prp name="relpath" type="S" value="Patient_EHR\Patient_EHR.mds.tcLS"/>
+			</Node>
+			<Node name="{995f9e34-46eb-42e9-b24e-e7c5400c3ab5}">
+				<Prp name="relpath" type="S" value="..\WindowsBased\Win_App\Win_App.mds.tcLS"/>
+			</Node>
+			<Node name="{a0eb7b9c-eb24-4057-9477-8136cc35ce0a}">
+				<Prp name="relpath" type="S" value="..\WebBased\DataDriven\ExcelDrivenRun\ExcelDrivenRun.mds.tcLS"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{EA7F32EE-9605-4DD3-A039-8E41358D79BB}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>

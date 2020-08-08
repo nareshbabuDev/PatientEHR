@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="6" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{274F545C-A2F0-4CB0-8BAF-FCA45ABCAC2D}" ParallelWalk="True">
+				<TypeInfo Item0="{298F5364-6EF5-4DA7-83F7-F3DBE0CC8C99}" />
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Patient_Files" Key="{0D829A36-8DCE-4E1A-9208-D004E45D786E}" ParallelWalk="True">
+						<TypeInfo Item0="{0DDA1E08-601D-4954-874F-0891BE1F8225}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="Patient Files" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="DatabaseListView" Key="{6DDE093B-1306-4FA4-BAAA-74457129C2C9}" ParallelWalk="True">
+								<Image FileName="-1509684458" Left="0" Top="0" Right="1376" Bottom="744" />
+								<TypeInfo Item0="{0708BDDC-BA66-450D-A2FB-954BA49CF453}" />
+								<Properties>
+									<Property Name="ClassName">
+										<Value PropertyType="0" Value="TDatabaseListView" Type="5" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value PropertyType="0" Value="DatabaseListView" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="MDIClient" Key="{56B35155-8756-4039-A898-193F09DC0D27}" ParallelWalk="True">
+										<Image FileName="-1509684458" Left="8" Top="84" Right="1368" Bottom="717" />
+										<TypeInfo Item0="{AEF60A49-6008-4F64-B602-BB472100195E}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="MDIClient" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="DBListView" Key="{94BD1B09-EF16-42FA-AD7E-74BA65DBA746}" ParallelWalk="True">
+												<Image FileName="-1509684458" Left="10" Top="86" Right="684" Bottom="371" />
+												<TypeInfo Item0="{4B20B3D8-AD47-4956-8EF4-D2970AB73BD9}" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="TDBListView" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="DBListView" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Grid" Key="{EF1F602F-C882-4BE4-8F69-1B7ABD178CB7}" ParallelWalk="True">
+														<Image FileName="-1509684458" Left="18" Top="117" Right="676" Bottom="279" />
+														<TypeInfo Item0="{4A10F1C1-62A0-4411-8A70-D55CE30B9DD3}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="TAdvStringGrid" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Grid" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Panel1" Key="{3A3724A7-85EE-4D1B-977D-7763D697A96E}" ParallelWalk="True">
+														<Image FileName="1971347227" Left="18" Top="279" Right="676" Bottom="344" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="TPanel" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Panel1" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="NewButton" Key="{34EB6FDF-00BF-44AC-A92D-254EB6B29292}" ParallelWalk="True">
+																<Image FileName="1971347227" Left="96" Top="281" Right="154" Bottom="339" />
+																<TypeInfo Item0="{CA4886C3-5FE4-492F-8277-B1302A354D1D}" />
+																<Properties>
+																	<Property Name="ClassName">
+																		<Value PropertyType="0" Value="TBitBtn" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="NewButton" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="FormLoadForm" Key="{DD43D8A1-C981-4BFE-883A-471A54142842}" ParallelWalk="True">
+												<Image FileName="797411243" Left="10" Top="86" Right="1390" Bottom="874" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="TFormLoadForm" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="FormLoadForm" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="TMemo" Key="{AE7A3BE9-ACA1-4011-8163-6CFC9F48F8D7}" ParallelWalk="True">
+														<Image FileName="497563826" Left="86" Top="211" Right="386" Bottom="233" />
+														<TypeInfo Item0="{F36313CC-9922-41E8-B32C-ACA2DA826D04}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="TMemo" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="" Type="5" />
+															</Property>
+															<Property Name="Index">
+																<Value PropertyType="0" Value="5" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TMemo2" Key="{4158B1A5-19E3-4EF7-8B85-AA3D532F168E}" ParallelWalk="True">
+														<Image FileName="1994554302" Left="126" Top="243" Right="384" Bottom="287" />
+														<TypeInfo Item0="{F36313CC-9922-41E8-B32C-ACA2DA826D04}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="TMemo" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="" Type="5" />
+															</Property>
+															<Property Name="Index">
+																<Value PropertyType="0" Value="8" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TPanel" Key="{86EB0F36-D056-43BC-83F6-4308FA81E4F3}" ParallelWalk="True">
+														<Image FileName="785536605" Left="102" Top="297" Right="198" Bottom="321" />
+														<TypeInfo Item0="{7E01D8AF-098A-47A1-9022-65847C946D76}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="TPanel" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="NO DATE" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TPanel2" Key="{3CF39787-508D-4A91-91C2-211F9D8CBFFE}" ParallelWalk="True">
+														<Image FileName="-1046362842" Left="292" Top="323" Right="388" Bottom="347" />
+														<TypeInfo Item0="{7E01D8AF-098A-47A1-9022-65847C946D76}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="TPanel" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="&#32;&#32;" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TMemo3" Key="{608DEEA5-6AE3-48E4-A8AE-1F98BBF0988F}" ParallelWalk="True">
+														<Image FileName="534530262" Left="164" Top="363" Right="704" Bottom="385" />
+														<TypeInfo Item0="{F36313CC-9922-41E8-B32C-ACA2DA826D04}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="TMemo" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="" Type="5" />
+															</Property>
+															<Property Name="Index">
+																<Value PropertyType="0" Value="9" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TPanel3" Key="{D32A0146-C7A8-40D4-A462-42D2A3D6B1EE}" ParallelWalk="True">
+														<Image FileName="-1341602198" Left="478" Top="191" Right="538" Bottom="215" />
+														<TypeInfo Item0="{7E01D8AF-098A-47A1-9022-65847C946D76}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="TPanel" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="&#32;&#32;&#32;" Type="5" />
+															</Property>
+															<Property Name="Index">
+																<Value PropertyType="0" Value="7" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TPanel4" Key="{F447CEF2-9440-41C8-8EF5-81D4A680E09C}" ParallelWalk="True">
+														<Image FileName="2146945394" Left="622" Top="189" Right="682" Bottom="213" />
+														<TypeInfo Item0="{7E01D8AF-098A-47A1-9022-65847C946D76}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="TPanel" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="&#32;&#32;&#32;&#32;" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TMemo4" Key="{BED54B5A-AAAE-4A79-B34E-568477616CF1}" ParallelWalk="True">
+														<Image FileName="676365970" Left="478" Top="221" Right="670" Bottom="243" />
+														<TypeInfo Item0="{F36313CC-9922-41E8-B32C-ACA2DA826D04}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="TMemo" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="" Type="5" />
+															</Property>
+															<Property Name="Index">
+																<Value PropertyType="0" Value="7" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TMemo5" Key="{CA0353E9-17B3-454A-8702-9B4A2A40CB1A}" ParallelWalk="True">
+														<Image FileName="746262057" Left="478" Top="249" Right="670" Bottom="271" />
+														<TypeInfo Item0="{F36313CC-9922-41E8-B32C-ACA2DA826D04}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="TMemo" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="" Type="5" />
+															</Property>
+															<Property Name="Index">
+																<Value PropertyType="0" Value="6" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TMemo6" Key="{04AEDB79-A0F9-4164-8BFB-526BB9199247}" ParallelWalk="True">
+														<Image FileName="-93869250" Left="478" Top="277" Right="670" Bottom="299" />
+														<TypeInfo Item0="{F36313CC-9922-41E8-B32C-ACA2DA826D04}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="TMemo" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="" Type="5" />
+															</Property>
+															<Property Name="Index">
+																<Value PropertyType="0" Value="3" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TPanel5" Key="{B4B080FE-E60E-4B67-9F8C-9EAA6DFD208B}" ParallelWalk="True">
+														<Image FileName="119630924" Left="480" Top="307" Right="500" Bottom="327" />
+														<TypeInfo Item0="{7E01D8AF-098A-47A1-9022-65847C946D76}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="TPanel" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="" Type="5" />
+															</Property>
+															<Property Name="Index">
+																<Value PropertyType="0" Value="2" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TMemo7" Key="{9D8D3B97-6F26-4810-8697-C8DBB01BADC6}" ParallelWalk="True">
+														<Image FileName="-243686653" Left="510" Top="331" Right="666" Bottom="355" />
+														<TypeInfo Item0="{F36313CC-9922-41E8-B32C-ACA2DA826D04}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="TMemo" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="" Type="5" />
+															</Property>
+															<Property Name="Index">
+																<Value PropertyType="0" Value="4" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TAdvPicture" Key="{6F3294E0-AF3D-41FE-8B86-C3592B43FA25}" ParallelWalk="True">
+														<Image FileName="-548908629" Left="694" Top="181" Right="808" Bottom="271" />
+														<TypeInfo Item0="{74D2C45B-DBD3-44FC-990E-6F3B6A007EF3}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="TAdvPicture" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="TAdvPicture_25" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TImage" Key="{F4F45DCD-D6D2-4005-9C05-483D5E563011}" ParallelWalk="True">
+														<Image FileName="164438679" Left="28" Top="485" Right="158" Bottom="533" />
+														<TypeInfo Item0="{74D2C45B-DBD3-44FC-990E-6F3B6A007EF3}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="TImage" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="TImage" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TPanel6" Key="{0B20A89C-3755-4A36-93AE-83B27D11B5B1}" ParallelWalk="True">
+														<Image FileName="-1537561263" Left="284" Top="497" Right="324" Bottom="521" />
+														<TypeInfo Item0="{7E01D8AF-098A-47A1-9022-65847C946D76}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="TPanel" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="Ok" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="TAdvPicture2" Key="{777D4DA2-B18C-4E56-8E08-62FD8BB3382E}" ParallelWalk="True">
+														<Image FileName="797411243" Left="520" Top="409" Right="622" Bottom="451" />
+														<TypeInfo Item0="{74D2C45B-DBD3-44FC-990E-6F3B6A007EF3}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="TAdvPicture" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="TAdvPicture_17" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="PopupCalendarForm" Key="{AC858330-D9EA-4763-90A1-A44746D1EC30}" ParallelWalk="True">
+								<Image FileName="-1377433721" Left="0" Top="0" Right="289" Bottom="251" />
+								<Properties>
+									<Property Name="ClassName">
+										<Value PropertyType="0" Value="TPopupCalendarForm" Type="5" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value PropertyType="0" Value="PopupCalendarForm" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DatePicker" Key="{71D3FA22-0AA8-4421-B644-825A24E17589}" ParallelWalk="True">
+										<Image FileName="-1377433721" Left="48" Top="39" Right="249" Bottom="200" />
+										<TypeInfo Item0="{94564354-B45E-43AE-8694-BACCE107FC52}" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value PropertyType="0" Value="TMonthCalendar" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="DatePicker" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="OKButton" Key="{E3ACC23E-6259-4736-9CEC-A3163811AD64}" ParallelWalk="True">
+										<Image FileName="703205932" Left="20" Top="215" Right="95" Bottom="240" />
+										<TypeInfo Item0="{CA4886C3-5FE4-492F-8277-B1302A354D1D}" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value PropertyType="0" Value="TButton" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="OKButton" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="ChooseRTDB" Key="{8B3D5160-1023-4BA4-B1B0-B2F957833670}" ParallelWalk="True">
+								<Image FileName="1609231685" Left="0" Top="0" Right="463" Bottom="368" />
+								<Properties>
+									<Property Name="ClassName">
+										<Value PropertyType="0" Value="TChooseRTDB" Type="5" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value PropertyType="0" Value="ChooseRTDB" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="UserList" Key="{DBACDD3A-2949-41E5-A6C2-D7720C558183}" ParallelWalk="True">
+										<Image FileName="1609231685" Left="142" Top="47" Right="449" Bottom="68" />
+										<TypeInfo Item0="{82199D5F-9F6B-4046-8715-8DB2B8A3FD75}" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value PropertyType="0" Value="TComboBox" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="UserList" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="DBList" Key="{63DFC90B-755B-479B-AFFC-6287692CE337}" ParallelWalk="True">
+										<Image FileName="-743867594" Left="24" Top="87" Right="449" Bottom="352" />
+										<TypeInfo Item0="{2D2F7FB9-9697-47C9-B971-8C42B9522D73}" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value PropertyType="0" Value="TListBox" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="DBList" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="ManageCustomUsers" Key="{D3AF2562-60C5-4EE9-810A-972B85914E00}" ParallelWalk="True">
+								<Image FileName="-1800216107" Left="0" Top="0" Right="567" Bottom="353" />
+								<Properties>
+									<Property Name="ClassName">
+										<Value PropertyType="0" Value="TManageCustomUsers" Type="5" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value PropertyType="0" Value="ManageCustomUsers" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Panel1" Key="{8A6AB567-4CA4-4FBE-92EC-31B521475940}" ParallelWalk="True">
+										<Image FileName="-1800216107" Left="11" Top="31" Right="564" Bottom="312" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value PropertyType="0" Value="TPanel" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="Panel1" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="UsersList" Key="{A1C32E15-56EF-4DA1-9458-415564CD79F6}" ParallelWalk="True">
+												<Image FileName="1320362284" Left="147" Top="47" Right="404" Bottom="68" />
+												<TypeInfo Item0="{82199D5F-9F6B-4046-8715-8DB2B8A3FD75}" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="TComboBox" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="UsersList" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="GroupBox1" Key="{967CFB70-3FE3-4375-BBB0-6C55C4736A70}" ParallelWalk="True">
+												<Image FileName="-577290851" Left="3" Top="79" Right="540" Bottom="304" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="TGroupBox" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="GroupBox1" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="UserName" Key="{5BB8D952-487D-4C51-A6AB-70AC82159437}" ParallelWalk="True">
+														<Image FileName="-577290851" Left="147" Top="111" Right="444" Bottom="132" />
+														<TypeInfo Item0="{F36313CC-9922-41E8-B32C-ACA2DA826D04}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="TEdit" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="UserName" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Browse" Key="{0400D0A5-C9D7-42E5-92A3-224DE19F31FE}" ParallelWalk="True">
+														<Image FileName="-2000072031" Left="451" Top="151" Right="526" Bottom="173" />
+														<TypeInfo Item0="{CA4886C3-5FE4-492F-8277-B1302A354D1D}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="TButton" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Browse" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="UserTypeList" Key="{6523B8AD-A4DB-4CBC-A5CD-8B80B0D4E7DA}" ParallelWalk="True">
+														<Image FileName="-906547761" Left="147" Top="191" Right="444" Bottom="212" />
+														<TypeInfo Item0="{82199D5F-9F6B-4046-8715-8DB2B8A3FD75}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="TComboBox" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="UserTypeList" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="NewUser" Key="{B5282AF0-C063-4305-BF6C-86715A9F9B73}" ParallelWalk="True">
+												<Image FileName="-1800216107" Left="443" Top="47" Right="558" Bottom="72" />
+												<TypeInfo Item0="{CA4886C3-5FE4-492F-8277-B1302A354D1D}" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="TButton" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="NewUser" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="OK" Key="{B62E7C84-6885-4B3B-AD9A-B3B2EB2DB1A9}" ParallelWalk="True">
+										<Image FileName="-949461186" Left="0" Top="303" Right="75" Bottom="328" />
+										<TypeInfo Item0="{CA4886C3-5FE4-492F-8277-B1302A354D1D}" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value PropertyType="0" Value="TButton" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="OK" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgBrowseForFolder" Key="{561DA16D-44FA-4845-97E8-1EC0803EDA1D}" ParallelWalk="True">
+								<Image FileName="-2101261025" Left="0" Top="0" Right="324" Bottom="335" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="#32770" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Browse for Folder" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="TreeView" Key="{7463DFF2-D2C6-4BE4-91D8-A2ED1B073CE0}" ParallelWalk="True">
+										<Image FileName="-2101261025" Left="16" Top="70" Right="308" Bottom="274" />
+										<TypeInfo Item0="{A7C09AED-C94B-43EE-9E95-464F117661CE}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="SysTreeView32" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnOK" Key="{4054C1A1-8B43-47AA-B0A1-328E4C1240D8}" ParallelWalk="True">
+										<Image FileName="617899685" Left="153" Top="296" Right="228" Bottom="319" />
+										<TypeInfo Item0="{CA4886C3-5FE4-492F-8277-B1302A354D1D}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="OK" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Patient_Files" Owner="{0D829A36-8DCE-4E1A-9208-D004E45D786E}">
+			<Child Name="DatabaseListView" Owner="{6DDE093B-1306-4FA4-BAAA-74457129C2C9}">
+				<Child Name="MDIClient" Owner="{56B35155-8756-4039-A898-193F09DC0D27}">
+					<Child Name="DBListView" Owner="{94BD1B09-EF16-42FA-AD7E-74BA65DBA746}">
+						<Child Name="Grid" Owner="{EF1F602F-C882-4BE4-8F69-1B7ABD178CB7}" />
+						<Child Name="Panel1" Owner="{3A3724A7-85EE-4D1B-977D-7763D697A96E}">
+							<Child Name="NewButton" Owner="{34EB6FDF-00BF-44AC-A92D-254EB6B29292}" />
+						</Child>
+					</Child>
+					<Child Name="FormLoadForm" Owner="{DD43D8A1-C981-4BFE-883A-471A54142842}">
+						<Child Name="TMemo" Owner="{AE7A3BE9-ACA1-4011-8163-6CFC9F48F8D7}" />
+						<Child Name="TMemo2" Owner="{4158B1A5-19E3-4EF7-8B85-AA3D532F168E}" />
+						<Child Name="TPanel" Owner="{86EB0F36-D056-43BC-83F6-4308FA81E4F3}" />
+						<Child Name="TPanel2" Owner="{3CF39787-508D-4A91-91C2-211F9D8CBFFE}" />
+						<Child Name="TMemo3" Owner="{608DEEA5-6AE3-48E4-A8AE-1F98BBF0988F}" />
+						<Child Name="TPanel3" Owner="{D32A0146-C7A8-40D4-A462-42D2A3D6B1EE}" />
+						<Child Name="TPanel4" Owner="{F447CEF2-9440-41C8-8EF5-81D4A680E09C}" />
+						<Child Name="TMemo4" Owner="{BED54B5A-AAAE-4A79-B34E-568477616CF1}" />
+						<Child Name="TMemo5" Owner="{CA0353E9-17B3-454A-8702-9B4A2A40CB1A}" />
+						<Child Name="TMemo6" Owner="{04AEDB79-A0F9-4164-8BFB-526BB9199247}" />
+						<Child Name="TPanel5" Owner="{B4B080FE-E60E-4B67-9F8C-9EAA6DFD208B}" />
+						<Child Name="TMemo7" Owner="{9D8D3B97-6F26-4810-8697-C8DBB01BADC6}" />
+						<Child Name="TAdvPicture" Owner="{6F3294E0-AF3D-41FE-8B86-C3592B43FA25}" />
+						<Child Name="TImage" Owner="{F4F45DCD-D6D2-4005-9C05-483D5E563011}" />
+						<Child Name="TPanel6" Owner="{0B20A89C-3755-4A36-93AE-83B27D11B5B1}" />
+						<Child Name="TAdvPicture2" Owner="{777D4DA2-B18C-4E56-8E08-62FD8BB3382E}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="PopupCalendarForm" Owner="{AC858330-D9EA-4763-90A1-A44746D1EC30}">
+				<Child Name="DatePicker" Owner="{71D3FA22-0AA8-4421-B644-825A24E17589}" />
+				<Child Name="OKButton" Owner="{E3ACC23E-6259-4736-9CEC-A3163811AD64}" />
+			</Child>
+			<Child Name="ChooseRTDB" Owner="{8B3D5160-1023-4BA4-B1B0-B2F957833670}">
+				<Child Name="UserList" Owner="{DBACDD3A-2949-41E5-A6C2-D7720C558183}" />
+				<Child Name="DBList" Owner="{63DFC90B-755B-479B-AFFC-6287692CE337}" />
+			</Child>
+			<Child Name="ManageCustomUsers" Owner="{D3AF2562-60C5-4EE9-810A-972B85914E00}">
+				<Child Name="Panel1" Owner="{8A6AB567-4CA4-4FBE-92EC-31B521475940}">
+					<Child Name="UsersList" Owner="{A1C32E15-56EF-4DA1-9458-415564CD79F6}" />
+					<Child Name="GroupBox1" Owner="{967CFB70-3FE3-4375-BBB0-6C55C4736A70}">
+						<Child Name="UserName" Owner="{5BB8D952-487D-4C51-A6AB-70AC82159437}" />
+						<Child Name="Browse" Owner="{0400D0A5-C9D7-42E5-92A3-224DE19F31FE}" />
+						<Child Name="UserTypeList" Owner="{6523B8AD-A4DB-4CBC-A5CD-8B80B0D4E7DA}" />
+					</Child>
+					<Child Name="NewUser" Owner="{B5282AF0-C063-4305-BF6C-86715A9F9B73}" />
+				</Child>
+				<Child Name="OK" Owner="{B62E7C84-6885-4B3B-AD9A-B3B2EB2DB1A9}" />
+			</Child>
+			<Child Name="dlgBrowseForFolder" Owner="{561DA16D-44FA-4845-97E8-1EC0803EDA1D}">
+				<Child Name="TreeView" Owner="{7463DFF2-D2C6-4BE4-91D8-A2ED1B073CE0}" />
+				<Child Name="btnOK" Owner="{4054C1A1-8B43-47AA-B0A1-328E4C1240D8}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
